@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kevin.BusinessCard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#551a8b">
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:padding="20dp"
+                android:text="@string/cake_parties_is_here_to_spice_up_all_of_your_parties"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/LocIcon"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:src="@drawable/location"
+                android:scaleType="centerCrop"
+                android:layout_below="@id/intro"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="20dp"
+                />
+
+            <TextView
+                android:id="@+id/LocIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@id/intro"
+                android:layout_toRightOf="@id/LocIcon"
+                android:text="@string/location"
+                android:paddingLeft="2dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_toRightOf="@id/LocIntro"
+                android:layout_below="@id/intro"
+                android:text="@string/location2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/OpeningIcon"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:src="@drawable/openinghours"
+                android:scaleType="centerCrop"
+                android:layout_below="@id/LocIcon"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/OpenTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@id/LocIntro"
+                android:layout_toRightOf="@id/OpeningIcon"
+                android:text="@string/_8_00am_to_8_00pm_everyday"
+                android:paddingLeft="4dp"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/Desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@id/OpeningIcon"
+                android:text="@string/desc"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="20dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@id/Desc"
+                android:text="@string/_12_345_678_901"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

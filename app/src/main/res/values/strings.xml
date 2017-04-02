@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cake Parties!</string>
+    <string name="cake_parties_is_here_to_spice_up_all_of_your_parties">
+        Cake Parties is here to spice up all of your parties!</string>
+    <string name="location">
+        We are located at
+    </string>
+    <string name="location2">
+        " 123 Fun St, Funtown!"
+    </string>
+    <string name="_8_00am_to_8_00pm_everyday">8:00am to 8:00pm everyday!</string>
+    <string name="desc">
+        Here at Cake Parties, we do a diverse range of services at every type of party!
+        For example, our signature service is the Android Cake! We bring our amazing Android
+        figures and dress them up for the occasion! Call now to find out more!
+    </string>
+    <string name="_12_345_678_901">+12 345 678 901</string>
+</resources>
