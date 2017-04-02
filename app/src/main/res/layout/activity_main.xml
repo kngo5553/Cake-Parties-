@@ -37,12 +37,13 @@
             <ImageView
                 android:id="@+id/LocIcon"
                 android:layout_width="40dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:src="@drawable/location"
                 android:scaleType="centerCrop"
                 android:layout_below="@id/intro"
                 android:layout_alignParentLeft="true"
                 android:paddingLeft="20dp"
+                android:paddingTop="1dp"
                 />
 
             <TextView
@@ -71,13 +72,13 @@
             <ImageView
                 android:id="@+id/OpeningIcon"
                 android:layout_width="40dp"
-                android:layout_height="35dp"
+                android:layout_height="30dp"
                 android:src="@drawable/openinghours"
                 android:scaleType="centerCrop"
                 android:layout_below="@id/LocIcon"
                 android:layout_alignParentLeft="true"
                 android:paddingLeft="20dp"
-                android:paddingTop="15dp"
+                android:paddingTop="10dp"
                 />
 
             <TextView
@@ -89,7 +90,7 @@
                 android:layout_toRightOf="@id/OpeningIcon"
                 android:text="@string/_8_00am_to_8_00pm_everyday"
                 android:paddingLeft="4dp"
-                android:paddingTop="15dp"
+                android:paddingTop="10dp"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"/>
 
